@@ -8,3 +8,12 @@ install:
 script:
   - npm run test
   - npm publish
+
+jobs:
+  include:
+    - stage: npm release
+      node_js: "8"
+      deploy:
+        provider: npm
+        email: "ken20206@gmail.com"
+        api_key: $NPM_TOKEN
