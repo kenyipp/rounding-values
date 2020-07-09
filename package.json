@@ -1,0 +1,30 @@
+{
+	"name": "rounding-values",
+	"version": "1.0.1",
+	"description": "Rounding the numbers in object and objects in array.",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest index.spec.js"
+	},
+	"author": "ken.yip",
+	"license": "MIT",
+	"dependencies": {
+		"map-obj": "^4.1.0"
+	},
+	"devDependencies": {
+		"jest": "^26.1.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kenyipp/rounding-values.git"
+	},
+	"keywords": [
+		"rounding",
+		"number",
+		"Math"
+	],
+	"bugs": {
+		"url": "https://github.com/kenyipp/rounding-values/issues"
+	},
+	"homepage": "https://github.com/kenyipp/rounding-values#readme"
+}
