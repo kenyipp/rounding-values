@@ -12,7 +12,7 @@
 		"map-obj": "^4.1.0"
 	},
 	"devDependencies": {
-		"jest": "^26.1.0"
+		"jest": "^25.5.4"
 	},
 	"repository": {
 		"type": "git",
