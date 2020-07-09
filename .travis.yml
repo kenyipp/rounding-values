@@ -5,7 +5,7 @@ node_js:
 
 install:
   - npm install
-  
+
 jobs:
   include:
     - stage: Build and test
@@ -19,7 +19,7 @@ jobs:
         api_key: "$NPM_TOKEN"
         skip_cleanup: true
         on:
-          tags: true
+          repo: kenyipp/rounding-values
 
 branches:
   only:
