@@ -1,6 +1,6 @@
 {
 	"name": "rounding-values",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Rounding the numbers in object and objects in array.",
 	"main": "index.js",
 	"scripts": {
