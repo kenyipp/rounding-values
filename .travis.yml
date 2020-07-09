@@ -17,3 +17,11 @@ jobs:
         provider: npm
         email: "ken20206@gmail.com"
         api_key: $NPM_TOKEN
+        skip_cleanup: true
+        on:
+          tags: true
+
+branches:
+  only:
+    - master
+    - /^v[0-9]+.*$/
